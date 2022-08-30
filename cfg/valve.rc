@@ -1,0 +1,23 @@
+// Load the base configuration
+//exec default.cfg
+r_decal_cullsize 1
+
+// Setup custom controller
+exec joystick.cfg
+
+// Run a user script file if present
+exec autoexec.cfg
+
+// Stuff command line statements
+stuffcmds
+
+// Display the startup level
+startupmenu
+sv_unlockedchapters 99
+
+// Apply HUD settings
+cl_hud_minmode 0
+
+hud_combattext_red "231"
+hud_combattext_green "231"
+hud_combattext_blue "72"
